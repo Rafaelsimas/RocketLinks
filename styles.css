@@ -35,13 +35,15 @@ body {
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.494);
+  border: 4px solid #892be270;
+  padding: 4px;
   transition: 0.3s ease-in-out;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0);
 }
 
 .container img:hover {
-  border: 1px solid rgb(255, 255, 255);
+  border: 4px solid #892be2e9;
+  padding: 4px;
 }
 
 .container p {
@@ -78,7 +80,7 @@ a {
 }
 
 a:hover {
-  background: rgba(46, 4, 212, 0.176);
+  background: #892be270;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(13.5px);
   -webkit-backdrop-filter: blur(13.5px);
